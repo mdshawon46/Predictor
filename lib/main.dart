@@ -10,12 +10,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aviator Predictor',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: const Scaffold(
-        body: Center(child: Text('Aviator Predictor App')),
+      home: Scaffold(
+        appBar: AppBar(title: const Text('Aviator Predictor')),
+        body: const Center(child: Text('Welcome to Aviator Predictor!')),
       ),
     );
   }
 }
-
